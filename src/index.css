@@ -1,0 +1,151 @@
+.hidden{
+    display: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.h{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 50px -20px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+.h-bottom{
+    padding-bottom: 80px;
+}
+
+.h-top{
+    padding-top: 32px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.logo{
+    background: transparent;
+    border: none;
+}
+
+.nav-btn {
+    min-width: 104px;
+    height: 40px;
+    width: auto;
+    padding: 8px 16px;
+    text-decoration: none;
+    justify-content: center;
+    -moz-box-pack: center;
+    align-items: center;
+    -moz-box-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Tibiwa", "helvetica neue", helvetica, arial, sans-serif;
+    line-height: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 16px;
+}
+
+.sign-in-btn{
+    color: rgb(38, 38, 38);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.register-btn{
+    color: rgb(255, 255, 255);
+    background: rgb(38, 38, 38) none repeat scroll 0% 0%;
+    border: 1px solid rgb(38, 38, 38);
+}
+
+.bd-container{
+    max-width: 1238px;
+}
+
+.bd-left{
+    padding-left: 32px;
+}
+
+.bd-right{
+    padding-right: 32px;
+}
+
+.auth-wrap{
+    width: 550px;
+    position: relative;
+    z-index: 20;
+    left: 0;
+    right: 0;
+    margin: 100px auto 0;
+}
+
+.auth-tiny{
+    padding: 12px;
+    position: relative;
+}
+
+.auth-tiny h4{
+    margin-bottom: 20px !important;
+    margin-top: 0px !important;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    margin-bottom: 12px;
+}
+
+input:not([type="submit"]):not([type="file"]):not([type="button"]):not([type="search"]):not([type="checkbox"]):not([type="radio"]), textarea {
+    height: 44px;
+    padding: 0px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #FFF;
+    border: 1px solid #E5E5E4;
+    border-radius: 0;
+    color: #000;
+    max-width: 489px;
+}
+
+input:not([type="submit"]):not([type="file"]):not([type="button"]):not([type="search"]):not([type="checkbox"]):not([type="radio"]):focus,
+input:not([type="submit"]):not([type="file"]):not([type="button"]):not([type="search"]):not([type="checkbox"]):not([type="radio"]):hover {
+    border-color: #57AD57;
+}
+
+.input-fw{
+    width: 100%;
+}
+
+.btn-green{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 11px 20px !important;
+    border-radius: 0;
+    background-color: #57AD57;
+    border: 2px solid #57AD57;
+    text-transform: uppercase;
+    outline: 0;
+    line-height: 18px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Tibiwa", "helvetica neue", helvetica, arial, sans-serif;
+}
